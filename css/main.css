@@ -66,10 +66,25 @@ label{
 }
 .box{
     width: 170px;
-    
+    height: 110px; 
 }
 .box .img{
    width: 100%;
    height: 100%;
-   position: static;
+   object-fit: cover;
+}
+.rating{
+    display: inline-flex;
+  flex-direction: row-reverse;
+}
+.rating i{
+    transition: all 0.3s ease-in;
+}
+.fa-star{
+    color: rgb(182, 182, 182);
+    
+}
+.fa-star:hover ~.fa-star,
+.fa-star:hover{
+    color: rgb(255, 187, 0);
 }
