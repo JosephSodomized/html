@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/actor-list.css">
+  <link rel="stylesheet" type="text/css" href="../css/actor.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>JustCast</title>
+</head>
+
+<body>
+  <!-- Page Content -->
+  <nav class="navbar navbar-custom">
+    <button class="btn btn-light btn-sm ml-auto">Wyloguj</button>
+  </nav>
+  <main class="" id="main">
+    <div class="title-txt pb-2 text-white"><span>Aktorzy</span><a href="./actor-list.html"><button
+          class="btn btn-success btn-sm float-right">Powrót do listy aktorów</button></a></div>
+    <div class="container-fluid background">
+      <!-- Wyszukiwarka -->
+      <div id="aktor">
+        <div class="row p-4">
+          <!-- 1 kolumna cechy wyglądu -->
+          <div class="col bg-danger">
+            <div class="bg-dark box2">
+              <img class="img" src="../img/people.jpg" alt="">
+            </div>
+            <div class="col">
+              <!-- cechy wyglądu -->
+              <div class="row p-1">
+                <div class="col">
+                  <span id="line">Cechy wyglądu</span>
+                </div>
+              </div>
+              <!-- oczy -->
+              <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="eyes">Kolor oczu</label>
+                  <div class="input-group input-group-sm">
+                    <select class="custom-select" id="eyes">
+                      <option value="1">brązowe</option>
+                      <option value="2">niebieskie</option>
+                      <option value="3">zielone</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <label style="font-size:10px;" for="height">Wzrost</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="height" type="text" value="185cm">
+                  </div>
+                </div>
+              </div>
+              <!-- włosy -->
+              <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="hair">Kolor włosów</label>
+                  <div class="input-group input-group-sm">
+                    <select class="custom-select" id="hair">
+                      <option value="1">brak</option>
+                      <option value="2">blond</option>
+                      <option value="3">rude</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <label style="font-size:10px;" for="weight">Waga</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="weight" type="text" value="87kg">
+                  </div>
+                </div>
+              </div>
+              <!-- but -->
+              <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="shoe">Rozmiar buta</label>
+                  <div class="input-group input-group-sm">
+                    <select name="" id="shoe" class="custom-select">
+                      <option value="1">44cm</option>
+                      <option value="2">42cm</option>
+                      <option value="3">41cm</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <label style="font-size: 10px;" for="hip">Obwód bioder</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" type="text" value="100cm">
+                  </div>
+                </div>
+              </div>
+              <!-- klata -->
+              <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="t-shirt">Rozmiar ubrania</label>
+                  <div class="input-group input-group-sm">
+                    <select name="" id="t-shirt" class="custom-select">
+                      <option value="1">M</option>
+                      <option value="2">XL</option>
+                      <option value="3">S</option>
+
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <label style="font-size: 10px;" for="chest">Obwód klatki</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="chest" type="text" value="150cm">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 kolumna Dane kontaktowe -->
+          <div class="col bg-primary">
+            <!-- imie nazwisko -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="name">Imie</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="name" type="text" value="Mike">
+                </div>
+              </div>
+              <div class="col">
+                <label style="font-size:10px;" for="name">Nazwisko</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="surname" type="text" value="Lebowski">
+                </div>
+              </div>
+            </div>
+            <!-- dane kontakowe -->
+            <div class="row p-1">
+              <div class="col">
+                <span id="line" style="font-size:13px;">Dane kontakowe</span>
+              </div>
+            </div>
+            <!-- telefon -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="name">Telefon</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="phone" type="text" value="782-329-321">
+                </div>
+              </div>
+            </div>
+            <!-- adrres -->
+            <div class="row p-1">
+              <div class="col">
+                <span id="line" style="font-size:13px;">Adres</span>
+              </div>
+            </div>
+            <!-- ulica-->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="street">Ulica</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="street" type="text" value="Czekoladowa">
+                </div>
+              </div>
+              <div class="col">
+                <label style="font-size:10px;" for="house_nr">Nr domu</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="house_nr" type="text" value="Lebowski">
+                </div>
+              </div>
+            </div>
+            <!-- kod_pocztowy -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="post_code">Kod pocztowy</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="street" type="post_code" value="32-400">
+                </div>
+              </div>
+              <div class="col">
+                <label style="font-size:10px;" for="city">Miejscowość</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="city" type="text" value="New York">
+                </div>
+              </div>
+            </div>
+            <!-- województwo -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="state">Województwo</label>
+                <div class="input-group input-group-sm">
+                  <select class="custom-select" id="state">
+                    <option value="1">zachodnio-pomorskie</option>
+                    <option value="2">pomorskie</option>
+                    <option value="3">warmińsko-mazurskie</option>
+                    <option value="4">podlaskie</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- narodowść -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="nation">Narodowść</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="nation" type="text" value="Polska">
+                </div>
+              </div>
+            </div>
+            <!-- kraj -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="country">Kraj</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="country" type="text" value="Polska">
+                </div>
+              </div>
+            </div>
+            <!-- doświadczenie -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="experience">Doświadczenie</label>
+                <div class="input-group input-group-sm">
+                  <select class="custom-select" id="experience">
+                    <option value="1">brak</option>
+                    <option value="2">aktor</option>
+                    <option value="3">teatr</option>
+                    <option value="3">inne</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- 3 kolumna -->
+          <div class="col bg-warning">
+            <!-- wiek i ocena -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="age">Wiek</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="age" type="text" value="24">
+                </div>
+              </div>
+              <div class="col">
+                <label style="font-size:10px;" for="grade">Ocena aktorska</label>
+                <div class="input-group input-group-sm">
+                  <select name="" id="grade" class="custom-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- puste -->
+            <div class="row p-1">
+              <div class="col">
+                <span id="line" style="font-size:13px;">&nbsp;</span>
+              </div>
+            </div>
+            <!-- email -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="mail">E-mail</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="mail" type="text" value="big.mike@gmail.com">
+                </div>
+              </div>
+            </div>
+            <!-- empty -->
+            <div class="row p-1">
+              <div class="col">
+                <span id="line" style="font-size:13px;">&nbsp;</span>
+              </div>
+            </div>
+            <!-- data urodzenia -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="date">Data urodzenia</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="date" type="text" value="10-02-1997">
+                </div>
+              </div>
+              <div class="col">
+                <label style="font-size:10px;" for="sex">Płeć</label>
+                <div class="input-group input-group-sm">
+                  <select name="" id="sex" class="custom-select">
+                    <option value="1">męzczyzna</option>
+                    <option value="2">kobieta</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- wykszyałcenie -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="degree">Wykształcenie</label>
+                <div class="input-group input-group-sm">
+                    <select name="" id="degree" class="custom-select">
+                        <option value="1">wyzsze</option>
+                        <option value="2">podstawowe</option>
+                      </select>
+                </div>
+              </div>
+            </div>
+            <!-- zawód -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="profession">Zawód</label>
+                <div class="input-group input-group-sm">
+                  <textarea class="form-control" name="" id="profession" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+            <!-- prawo jazdy -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="drive_license">Prawo jazdy</label>
+                <div class="input-group input-group-sm">
+                  <select name="" id="drive_license" class="custom-select">
+                    <option value="A">A</option>
+                    <option value="B1">B1</option>
+                    <option value="C1">C1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- Język -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="language">Język</label>
+                <div class="input-group input-group-sm">
+                  <select name="" id="language" class="custom-select">
+                    <option value="ang">angielski</option>
+                    <option value="rus">rosyjski</option>
+                    <option value="esp">hiszpański</option>
+                  </select>
+                </div>
+              </div>
+               <!-- poziom -->
+              <div class="col">
+                  <label style="font-size:10px;" for="lang_lvl">Poziom</label>
+                  <div class="input-group input-group-sm">
+                    <select name="" id="lang_lvl" class="custom-select">
+                      <option value="C1">C1</option>
+                      <option value="B1">B1</option>
+                      <option value="A2">A2</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+          <!-- Język -->
+          <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="language">Język</label>
+                <div class="input-group input-group-sm">
+                  <select name="" id="language" class="custom-select">
+                    <option value="ang">angielski</option>
+                    <option value="rus">rosyjski</option>
+                    <option value="esp">hiszpański</option>
+                  </select>
+                </div>
+              </div>
+               <!-- poziom -->
+              <div class="col">
+                  <label style="font-size:10px;" for="lang_lvl">Poziom</label>
+                  <div class="input-group input-group-sm">
+                    <select name="" id="lang_lvl" class="custom-select">
+                      <option value="C1">C1</option>
+                      <option value="B1">B1</option>
+                      <option value="A2">A2</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+
+          <!-- 4 kolumna -->
+          <div class="col bg-success">
+            <!-- casting id status -->
+            <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="casting_id">Casting ID</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="casting_id" type="text" value="12321bhdjsab">
+                  </div>
+                </div>
+                <div class="col">
+                  <label style="font-size:10px;" for="status">Status</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="status" type="text" value="Aktywny">
+                  </div>
+                </div>
+              </div>
+               <!-- puste -->
+            <div class="row p-1">
+                <div class="col">
+                  <span id="line" style="font-size:13px;">&nbsp;</span>
+                </div>
+              </div>
+               <!-- archive nr -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="archive_nr">Numer archiwalny</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="archive_nr" type="text" value="xd324">
+                </div>
+              </div>
+            </div>
+            <!-- puste -->
+            <div class="row p-1">
+                <div class="col">
+                  <span id="line" style="font-size:13px;">&nbsp;</span>
+                </div>
+              </div>
+               <!-- archive nr -->
+            <div class="row p-1">
+              <div class="col">
+                <label style="font-size:10px;" for="job_category">Kategoria zawodowa</label>
+                <div class="input-group input-group-sm">
+                  <input class="form-control" id="job_category" type="text" value="Podrywacz">
+                </div>
+              </div>
+            </div>
+            <!-- acotr nr -->
+            <div class="row p-1">
+                <div class="col">
+                  <label style="font-size:10px;" for="actor_category">Kategoria aktorska</label>
+                  <div class="input-group input-group-sm">
+                    <input class="form-control" id="actor_category" type="text" value="Błazen">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row p-1"><div class="col">&nbsp;</div></div>
+              <div class="row"><div class="col">&nbsp;</div></div>
+
+              <!-- znaki szczególne-->
+            <div class="row p-1">
+                <div class="col">
+                    <label style="font-size:10px;" for="special_signs">Znaki szczególne</label>
+                    <div class="input-group input-group-sm">
+                      <input class="form-control" id="special_signs" type="text" value="Podbite lewe oko">
+                      <input class="form-control" id="special_signs" type="text" value="Blizna na ramieniu">
+                    </div>
+                  </div>
+            </div>
+              
+          </div>
+
+        </div>
+      </div>
+
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
