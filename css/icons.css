@@ -1,0 +1,15 @@
+.icon{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filled-star{
+    background: url('../img/callender.svg');
+}
+
+.btn-lg {
+    width: 200px;
+    height: 135px;
+}
