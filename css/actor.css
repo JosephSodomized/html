@@ -16,4 +16,14 @@ height: 1px;
 background: black;
 width: 75%;
  }
- 
+#line2::after{
+display: block;
+content: " ";
+height: 1px;
+background: black;
+width: 100%;
+ }
+.img2{
+    width: 200px;
+    height: 140px;
+}

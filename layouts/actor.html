@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="../css/actor-list.css">
   <link rel="stylesheet" type="text/css" href="../css/actor.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/icons.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title>JustCast</title>
@@ -31,7 +32,7 @@
           <!-- 1 kolumna cechy wyglądu -->
           <div class="col ">
             <div class="box2">
-              <img class="img ml-3" src="../img/people.jpg" alt="">
+              <img class="img mx-auto" src="../img/people.jpg" alt="">
             </div>
             <div class="col">
               <!-- cechy wyglądu -->
@@ -394,7 +395,10 @@
                 <div class="col">
                   <label style="font-size:10px;" for="status">Status</label>
                   <div class="input-group input-group-sm">
-                    <input class="form-control" id="status" type="text" value="Aktywny">
+                    <select name="" id="status" class="custom-select">
+                      <option value="active">Aktywny</option>
+                      <option value="unactive">Nieaktywny</option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -453,8 +457,46 @@
             </div>
               
           </div>
-
+          
         </div>
+        <!-- line -->
+        <div class="row">
+          <div class="col">
+            <span id="line2" style="font-size:13px;">&nbsp;</span>
+          </div>
+        </div>
+        <!-- galeria -->
+        <div class="row p-4">
+          <div class="col">
+            <label for="img-gallery">Galeria (56) <i class="fas fa-caret-down"></i></label>
+            <div id="img-gallery " class="text-center">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <button class="btn btn-secondary btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+            
+          </div>
+          </div>
+        </div>
+        
+          <!-- filmy -->
+          <div class="row p-4">
+            <div class="col">
+              <label for="movie-gallery">Filmy (36) <i class="fas fa-caret-down"></i></label>
+              <div id="movie-gallery " class="text-center">
+              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+              <button class="btn btn-secondary btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+              
+            </div>
+            </div>
+          </div>
+        
       </div>
 
   </main>
