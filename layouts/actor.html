@@ -38,7 +38,7 @@
               <!-- cechy wyglądu -->
               <div class="row p-1">
                 <div class="col">
-                  <span id="line">Cechy wyglądu</span>
+                  <span class="line" >Cechy wyglądu</span>
                 </div>
               </div>
               <!-- oczy -->
@@ -141,7 +141,7 @@
             <!-- dane kontakowe -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">Dane kontakowe</span>
+                <span class="line">Dane kontakowe</span>
               </div>
             </div>
             <!-- telefon -->
@@ -149,14 +149,14 @@
               <div class="col">
                 <label style="font-size:10px;" for="name">Telefon</label>
                 <div class="input-group input-group-sm">
-                  <input class="form-control" id="phone" type="text" value="782-329-321">
+                  <input disabled class="form-control" id="phone" type="text" value="782-329-321">
                 </div>
               </div>
             </div>
             <!-- adrres -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">Adres</span>
+                <span class="line">Adres</span>
               </div>
             </div>
             <!-- ulica-->
@@ -250,7 +250,7 @@
               <div class="col">
                 <label style="font-size:10px;" for="grade">Ocena aktorska</label>
                 <div class="input-group input-group-sm">
-                  <select name="" id="grade" class="custom-select">
+                  <select disabled name="" id="grade" class="custom-select">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -261,7 +261,7 @@
             <!-- puste -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">&nbsp;</span>
+                <span class="line" style="font-size:13px;">&nbsp;</span>
               </div>
             </div>
             <!-- email -->
@@ -276,7 +276,7 @@
             <!-- empty -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">&nbsp;</span>
+                <span class="line" style="font-size:13px;">&nbsp;</span>
               </div>
             </div>
             <!-- data urodzenia -->
@@ -396,8 +396,9 @@
                 <label style="font-size:10px;" for="status">Status</label>
                 <div class="input-group input-group-sm">
                   <select name="" id="status" class="custom-select">
-                    <option value="active">Aktywny</option>
-                    <option value="unactive">Nieaktywny</option>
+                    <option value="new">Nowy z formularza</option>
+                    <option value="accepted">Zaakceptowany z formularza</option>
+                    <option value="casting">Casting Zewnętrzny</option>
                   </select>
                 </div>
               </div>
@@ -405,7 +406,7 @@
             <!-- puste -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">&nbsp;</span>
+                <span class="line" style="font-size:13px;">&nbsp;</span>
               </div>
             </div>
             <!-- archive nr -->
@@ -420,7 +421,7 @@
             <!-- puste -->
             <div class="row p-1">
               <div class="col">
-                <span id="line" style="font-size:13px;">&nbsp;</span>
+                <span class="line" style="font-size:13px;">&nbsp;</span>
               </div>
             </div>
             <!-- archive nr -->
@@ -466,20 +467,20 @@
         <!-- line -->
         <div class="row">
           <div class="col">
-            <span id="line2" style="font-size:13px;">&nbsp;</span>
+            <span class="line2" style="font-size:13px;">&nbsp;</span>
           </div>
         </div>
         <!-- galeria -->
         <div class="row p-4">
           <div class="col">
             <label for="img-gallery">Galeria (56) <i class="fas fa-caret-down"></i></label>
-            <div id="img-gallery " class="text-center">
+            <div id="img-gallery " class="text-left">
               <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <button class="btn btn-secondary btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+              <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
 
             </div>
           </div>
@@ -489,13 +490,13 @@
         <div class="row p-4">
           <div class="col">
             <label for="movie-gallery">Filmy (36) <i class="fas fa-caret-down"></i></label>
-            <div id="movie-gallery " class="text-center">
+            <div id="movie-gallery " class="text-left">
               <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
               <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <button class="btn btn-secondary btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+              <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
             </div>
           </div>
         </div>
