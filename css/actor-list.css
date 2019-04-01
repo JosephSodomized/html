@@ -15,14 +15,9 @@ label{
     background-color: #cfcfcf;
 }
 
-.actor-box{
-    width: 95%;
-    margin: 0 auto;
-    font-size: 12px;
-}
 .box{
     width: 170px;
-    height: 110px; 
+    height: 120px; 
 }
 .box .img{
    width: 100%;
@@ -44,10 +39,21 @@ label{
 .fa-star:hover{
     color: rgb(255, 187, 0);
 }
+
+.list-group-item{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.list-group-flush{
+    border: 0 none;
+}
+
 .list-group-item-action{
     background-color: white;
 }
 .list-group-item-action:hover{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(230, 230, 230);
     transition: 0.5s ease-in;
 }
