@@ -28,6 +28,14 @@
     <div class="container-fluid background">
       <!-- Wyszukiwarka -->
       <div id="aktor">
+<<<<<<< HEAD
+
+      </div>
+      <!-- line -->
+      <div class="row">
+        <div class="col">
+          <span class="line2" style="font-size:13px;">&nbsp;</span>
+=======
         <div class="row p-4">
           <!-- 1 kolumna cechy wyglądu -->
           <div class="col ">
@@ -541,89 +549,91 @@
           <div class="col">
             <span class="line2" style="font-size:13px;">&nbsp;</span>
           </div>
+>>>>>>> master
         </div>
-        <!-- galeria -->
-        <div class="row p-4">
-          <div class="col">
-            <label for="img-gallery">Galeria (56) <i class="fas fa-caret-down"></i></label>
-            <div id="img-gallery " class="text-left">
-              <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
-              <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+      </div>
+      <!-- galeria -->
+      <div class="row p-4">
+        <div class="col">
+          <label for="img-gallery">Galeria (56) <i class="fas fa-caret-down galery"></i></label>
+          <div id="img-gallery" class="text-left" style="display:none">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people3.jpg" class="img-thumbnail img2" alt="">
+            <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
 
-            </div>
-          </div>
-        </div>
-
-        <!-- filmy -->
-        <div class="row p-4">
-          <div class="col">
-            <label for="movie-gallery">Filmy (36) <i class="fas fa-caret-down"></i></label>
-            <div id="movie-gallery " class="text-left">
-              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
-              <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Historia anagay -->
-        <div class="row p-4">
-          <div class="col">
-            <label for="history">Historia angazy <i class="fas fa-caret-down"></i></label>
-            <div class="table-responsive">
-              <table id="hostory" class="table">
-                <thead class="thead-light">
-                  <tr>
-                    <th scope="col">ID zlecenia</th>
-                    <th scope="col">Nazwa zlecenia</th>
-                    <th scope="col">Klient</th>
-                    <th scope="col">Rola</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Data zmiany statusu</th>
-                    <th scope="col">Prowadzący</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">xs2123</th>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">xs2123</th>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">xs2123</th>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                    <td>Lorem</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
       </div>
+
+      <!-- filmy -->
+      <div class="row p-4">
+        <div class="col">
+          <label for="movie-gallery">Filmy (36) <i class="fas fa-caret-down movie-arrow"></i></label>
+          <div id="movie-gallery" class="text-left" style="display:none">
+            <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+            <img src="../img/people2.jpg" class="img-thumbnail img2" alt="">
+            <button class="btn custom-btn btn-lg text-center p-0"><span style="font-size: 90px;">+</span></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Historia anagay -->
+      <div class="row p-4">
+        <div class="col">
+          <label for="history">Historia angazy <i class="fas fa-caret-down history-arrow"></i></label>
+          <div class="table-responsive">
+            <table id="history" class="table" style="display:none">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">ID zlecenia</th>
+                  <th scope="col">Nazwa zlecenia</th>
+                  <th scope="col">Klient</th>
+                  <th scope="col">Rola</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Data zmiany statusu</th>
+                  <th scope="col">Prowadzący</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">xs2123</th>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                </tr>
+                <tr>
+                  <th scope="row">xs2123</th>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                </tr>
+                <tr>
+                  <th scope="row">xs2123</th>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                  <td>Lorem</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
   <!-- Optional JavaScript -->
@@ -637,6 +647,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+<<<<<<< HEAD
+  <script src="../app/actorProfil.js"></script>
+  <script src="../app/toggles.js"></script>
+=======
+>>>>>>> master
 </body>
 
 </html>
